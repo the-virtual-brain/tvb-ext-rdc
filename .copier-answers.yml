@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.3.5
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: adrian.ciu@codemart.ro
+author_name: Adrian Ciu
+has_binder: false
+has_settings: false
+kind: frontend
+labextension_name: tvb-ext-edc
+project_short_description: A JupyterLab extension used for wrapping the URL for Guacamole.
+python_name: tvb_ext_edc
+repository: https://github.com/the-virtual-brain/tvb-ext-rdc.git
+test: false
+
