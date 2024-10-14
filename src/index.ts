@@ -4,8 +4,8 @@ import {
 } from '@jupyterlab/application';
 
 import {ICommandPalette, MainAreaWidget} from '@jupyterlab/apputils';
-import {IframeDisplay} from "./IframeDisplay";
 import {ILauncher} from '@jupyterlab/launcher';
+import IframeWidget from "./IframeWidget";
 
 const extension: JupyterFrontEndPlugin<void> = {
     id: 'my-iframe-widget',
@@ -16,7 +16,7 @@ const extension: JupyterFrontEndPlugin<void> = {
         app.commands.addCommand(commandId, {
             label: 'Guacamole',
             execute: () => {
-                const iframe = new IframeDisplay('http://localhost:8080/guacamole/');
+                const iframe = new IframeWidget('http://localhost:8080/guacamole/');
                 const widget = new MainAreaWidget({content: iframe});
                 widget.title.label = 'Guacamole';
                 widget.title.closable = true;
