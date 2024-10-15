@@ -16,7 +16,7 @@ const extension: JupyterFrontEndPlugin<void> = {
         app.commands.addCommand(commandId, {
             label: 'Guacamole',
             execute: () => {
-                const iframe = new IframeWidget('http://localhost:8080/guacamole/');
+                const iframe = new IframeWidget(process.env.REACT_APP_GUAC_URL!);
                 const widget = new MainAreaWidget({content: iframe});
                 widget.title.label = 'Guacamole';
                 widget.title.closable = true;

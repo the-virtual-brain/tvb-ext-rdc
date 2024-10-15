@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {ReactWidget} from '@jupyterlab/ui-components';
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import '../style/IframeWidget.css';
 
 type IframeWidgetProps = {
@@ -11,8 +11,13 @@ const IframeWidgetComponent = ({initialUrl}: IframeWidgetProps) => {
     const [url, setUrl] = useState<string>(initialUrl);
 
     const handleClick = () => {
-        setUrl(`${initialUrl}?t=${new Date().getTime()}`);
+        setUrl('')
     };
+
+    useEffect(() => {
+        setUrl(initialUrl);
+    }, [url]);
+
 
     return (
         <div className="iframe-widget" style={{height: '100%', width: '100%'}}>
