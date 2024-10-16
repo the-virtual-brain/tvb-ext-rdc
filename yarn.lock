@@ -1325,11 +1325,11 @@ __metadata:
   linkType: hard
 
 "acorn@npm:^8.7.1, acorn@npm:^8.8.2, acorn@npm:^8.9.0":
-  version: 8.12.1
-  resolution: "acorn@npm:8.12.1"
+  version: 8.13.0
+  resolution: "acorn@npm:8.13.0"
   bin:
     acorn: bin/acorn
-  checksum: 677880034aee5bdf7434cc2d25b641d7bedb0b5ef47868a78dadabedccf58e1c5457526d9d8249cd253f2df087e081c3fe7d903b448d8e19e5131a3065b83c07
+  checksum: f1541f05eb5d6ff67990d1927290809b1ebb663ac96d9c7057c935cf29c5bcaba6d39f37bd007f4bb814f162f142b0f2b2dd4b14128b8fcfaf9f0508a6f05f1c
   languageName: node
   linkType: hard
 
@@ -1603,9 +1603,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001663":
-  version: 1.0.30001668
-  resolution: "caniuse-lite@npm:1.0.30001668"
-  checksum: ce6996901b5883454a8ddb3040f82342277b6a6275876dfefcdecb11f7e472e29877f34cae47c2b674f08f2e71971dd4a2acb9bc01adfe8421b7148a7e9e8297
+  version: 1.0.30001669
+  resolution: "caniuse-lite@npm:1.0.30001669"
+  checksum: 8ed0c69d0c6aa3b1cbc5ba4e5f5330943e7b7165e257f6955b8b73f043d07ad922265261f2b54d9bbaf02886bbdba5e6f5b16662310a13f91f17035af3212de1
   languageName: node
   linkType: hard
 
@@ -2042,9 +2042,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.28":
-  version: 1.5.38
-  resolution: "electron-to-chromium@npm:1.5.38"
-  checksum: 8279317608f24f95366b679703c7e4196beb0702384fca211a5db4a53e6c960067d0f5de487883fe807b04eaba3939137a39958d6c5209b4d1e5a693efdd6f6a
+  version: 1.5.39
+  resolution: "electron-to-chromium@npm:1.5.39"
+  checksum: cd3b644c20f30fc1c393168bafa0e42a3dde576129603266ab61248b76a36837084073895a845676f8fe90dbb31d385bbef53901b60381f3ae82b40a5bece352
   languageName: node
   linkType: hard
 
@@ -2445,9 +2445,9 @@ __metadata:
   linkType: hard
 
 "fast-uri@npm:^3.0.1":
-  version: 3.0.2
-  resolution: "fast-uri@npm:3.0.2"
-  checksum: ca00aadc84e0ab93a8a1700c386bc7cbeb49f47d9801083c258444eed31221fdf864d68fb48ea8acd7c512bf046b53c09e3aafd6d4bdb9449ed21be29d8d6f75
+  version: 3.0.3
+  resolution: "fast-uri@npm:3.0.3"
+  checksum: c52e6c86465f5c240e84a4485fb001088cc743d261a4b54b0050ce4758b1648bdbe53da1328ef9620149dca1435e3de64184f226d7c0a3656cb5837b3491e149
   languageName: node
   linkType: hard
 
@@ -3727,6 +3727,15 @@ __metadata:
   version: 7.1.2
   resolution: "minipass@npm:7.1.2"
   checksum: 2bfd325b95c555f2b4d2814d49325691c7bee937d753814861b0b49d5edcda55cbbf22b6b6a60bb91eddac8668771f03c5ff647dcd9d0f798e9548b9cdc46ee3
+  languageName: node
+  linkType: hard
+
+"mkdirp@npm:^1.0.3":
+  version: 1.0.4
+  resolution: "mkdirp@npm:1.0.4"
+  bin:
+    mkdirp: bin/cmd.js
+  checksum: a96865108c6c3b1b8e1d5e9f11843de1e077e57737602de1b82030815f311be11f96f09cce59bd5b903d0b29834733e5313f9301e3ed6d6f6fba2eae0df4298f
   languageName: node
   linkType: hard
 
@@ -5110,8 +5119,8 @@ __metadata:
   linkType: hard
 
 "terser@npm:^5.26.0":
-  version: 5.34.1
-  resolution: "terser@npm:5.34.1"
+  version: 5.35.0
+  resolution: "terser@npm:5.35.0"
   dependencies:
     "@jridgewell/source-map": ^0.3.3
     acorn: ^8.8.2
@@ -5119,7 +5128,7 @@ __metadata:
     source-map-support: ~0.5.20
   bin:
     terser: bin/terser
-  checksum: 19a6710e17ff3f20d3b0661090640a572ce5ff6f2e95c731bb5a9eb1dcc1fe563cd0f1e4a22cde89b2717667336252bc2adb8894bdfbec6d1996b3e70b44f365
+  checksum: 1d48ad776e690582e52b952e06376d50999809235e1fef5bc759e12f2d09b4ec5ab09895682c988e9a3115e6968319eba93bed0cbaea7c4fa08b8a015dedd5a4
   languageName: node
   linkType: hard
 
@@ -5172,21 +5181,22 @@ __metadata:
   linkType: hard
 
 "tslib@npm:^2.6.2":
-  version: 2.7.0
-  resolution: "tslib@npm:2.7.0"
-  checksum: 1606d5c89f88d466889def78653f3aab0f88692e80bb2066d090ca6112ae250ec1cfa9dbfaab0d17b60da15a4186e8ec4d893801c67896b277c17374e36e1d28
+  version: 2.8.0
+  resolution: "tslib@npm:2.8.0"
+  checksum: de852ecd81adfdb4870927e250763345f07dc13fe7f395ce261424966bb122a0992ad844c3ec875c9e63e72afe2220a150712984e44dfd1a8a7e538a064e3d46
   languageName: node
   linkType: hard
 
-"tvb-ext-rdc@workspace:.":
+"tvb_ext_rdc@workspace:.":
   version: 0.0.0-use.local
-  resolution: "tvb-ext-rdc@workspace:."
+  resolution: "tvb_ext_rdc@workspace:."
   dependencies:
     "@jupyterlab/application": ^4.2.5
     "@jupyterlab/apputils": ^4.3.5
     "@jupyterlab/builder": ^4.0.0
+    "@jupyterlab/coreutils": ^6.2.5
     "@jupyterlab/launcher": ^4.2.5
-    "@jupyterlab/ui-components": ^4.2.5
+    "@jupyterlab/services": ^7.2.5
     "@types/json-schema": ^7.0.11
     "@types/react": ^18.0.26
     "@types/react-addons-linked-state-mixin": ^0.14.22
@@ -5196,6 +5206,7 @@ __metadata:
     eslint: ^8.36.0
     eslint-config-prettier: ^8.8.0
     eslint-plugin-prettier: ^5.0.0
+    mkdirp: ^1.0.3
     npm-run-all: ^4.1.5
     prettier: ^3.0.0
     rimraf: ^5.0.1

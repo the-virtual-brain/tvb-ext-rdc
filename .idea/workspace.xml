@@ -4,7 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2287ccc4-4f67-4491-8c37-a99e8fb9dbf0" name="Changes" comment="refactoring" />
+    <list default="true" id="2287ccc4-4f67-4491-8c37-a99e8fb9dbf0" name="Changes" comment="refactoring">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/handler.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.copier-answers.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/check-release.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/check-release.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tvb-ext-rdc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tvb-ext-rdc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarnrc.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RELEASE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/install.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IframeWidget.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/IframeWidget.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tvb_ext_rdc/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,8 +64,8 @@
     &quot;accountId&quot;: &quot;b194630f-eda9-48b3-9a51-3b18255dc31f&quot;
   }
 }</component>
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/package.json" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -53,22 +80,27 @@
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Python.test.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;eslint.code.style.apply.dismiss&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Work/tvb-ext-rdc&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Work/tvb_ext_rdc_new/tvb-ext-rdc/style&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
     &quot;prettier.import.notification.dismissed&quot;: &quot;true&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Work\\tvb-ext-rdc\\node_modules\\prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Work\\tvb-ext-rdc\\node_modules\\typescript\\lib&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Work\\tvb_ext_rdc_new\\tvb-ext-rdc\\node_modules\\prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Work\\tvb_ext_rdc_new\\tvb-ext-rdc\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Work\tvb_ext_rdc_new\tvb-ext-rdc\style" />
+      <recent name="C:\Work\tvb_ext_rdc_new\tvb-ext-rdc\src" />
       <recent name="C:\Work\tvb-ext-rdc\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -135,6 +167,9 @@
       <workItem from="1729000543136" duration="1488000" />
       <workItem from="1729002062629" duration="16000" />
       <workItem from="1729060427591" duration="31000" />
+      <workItem from="1729083315213" duration="2470000" />
+      <workItem from="1729085906893" duration="497000" />
+      <workItem from="1729086421049" duration="497000" />
     </task>
     <task id="LOCAL-00001" summary="init extension">
       <option name="closed" value="true" />

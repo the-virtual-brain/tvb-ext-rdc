@@ -6,6 +6,11 @@ import {
 import { ICommandPalette, MainAreaWidget } from '@jupyterlab/apputils';
 import { ILauncher } from '@jupyterlab/launcher';
 import IframeWidget from './IframeWidget';
+import { requestAPI } from './handler';
+
+export type APIEnv = {
+  guacamole: string;
+};
 
 const extension: JupyterFrontEndPlugin<void> = {
   id: 'tvb-ext-rdc:plugin',
@@ -22,12 +27,23 @@ const extension: JupyterFrontEndPlugin<void> = {
     app.commands.addCommand(commandId, {
       label: 'Guacamole',
       execute: () => {
-        const iframe = new IframeWidget('http://localhost:8080/guacamole/');
-        const widget = new MainAreaWidget({ content: iframe });
-        widget.title.label = 'Guacamole';
-        widget.title.closable = true;
-        app.shell.add(widget, 'main');
-        app.shell.activateById(widget.id);
+        let environmentData: string | undefined = undefined;
+
+        requestAPI<APIEnv>('env_route')
+          .then(data => {
+            environmentData = data.guacamole;
+            const iframe = new IframeWidget(environmentData!);
+            const widget = new MainAreaWidget({ content: iframe });
+            widget.title.label = 'Guacamole';
+            widget.title.closable = true;
+            app.shell.add(widget, 'main');
+            app.shell.activateById(widget.id);
+          })
+          .catch(reason => {
+            console.error(
+              `The name_of_your_extension server extension appears to be missing.\n${reason}`
+            );
+          });
       }
     });
 

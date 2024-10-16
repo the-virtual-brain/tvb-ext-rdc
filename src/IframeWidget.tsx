@@ -9,7 +9,7 @@ type IframeWidgetProps = {
 
 const IframeWidgetComponent = ({ initialUrl }: IframeWidgetProps) => {
   const [url, setUrl] = useState<string>(initialUrl);
-
+  console.log(url);
   const handleClick = () => {
     setUrl('');
   };
@@ -30,7 +30,7 @@ const IframeWidgetComponent = ({ initialUrl }: IframeWidgetProps) => {
         width="100%"
         height="100%"
         style={{ border: 'none' }}
-        title="Iframe Display"
+        title="Iframe URL"
         allow="clipboard-read; clipboard-write"
       />
     </div>

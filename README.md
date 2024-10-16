@@ -2,7 +2,11 @@
 
 [![Github Actions Status](https://github.com/the-virtual-brain/tvb-ext-rdc/workflows/Build/badge.svg)](https://github.com/the-virtual-brain/tvb-ext-rdc/actions/workflows/build.yml)
 
-A JupyterLab extension which wraps a given URL as an env variable.
+A JupyterLab extension to wrap a given URL given as an env parameter.
+
+This extension is composed of a Python package named `tvb_ext_rdc`
+for the server extension and a NPM package named `tvb_ext_rdc`
+for the frontend extension.
 
 ## Requirements
 
@@ -24,6 +28,22 @@ To remove the extension, execute:
 pip uninstall tvb_ext_rdc
 ```
 
+## Troubleshoot
+
+If you are seeing the frontend extension, but it is not working, check
+that the server extension is enabled:
+
+```bash
+jupyter server extension list
+```
+
+If the server extension is installed and enabled, but you are not seeing
+the frontend extension, check the frontend extension is installed:
+
+```bash
+jupyter labextension list
+```
+
 ## Contributing
 
 ### Development install
@@ -41,6 +61,8 @@ The `jlpm` command is JupyterLab's pinned version of
 pip install -e "."
 # Link your development version of the extension with JupyterLab
 jupyter labextension develop . --overwrite
+# Server extension must be manually installed in develop mode
+jupyter server extension enable tvb_ext_rdc
 # Rebuild extension Typescript source after making changes
 jlpm build
 ```
@@ -65,12 +87,14 @@ jupyter lab build --minimize=False
 ### Development uninstall
 
 ```bash
+# Server extension must be manually disabled in develop mode
+jupyter server extension disable tvb_ext_rdc
 pip uninstall tvb_ext_rdc
 ```
 
 In development mode, you will also need to remove the symlink created by `jupyter labextension develop`
 command. To find its location, you can run `jupyter labextension list` to figure out where the `labextensions`
-folder is located. Then you can remove the symlink named `tvb-ext-rdc` within that folder.
+folder is located. Then you can remove the symlink named `tvb_ext_rdc` within that folder.
 
 ### Packaging the extension
 

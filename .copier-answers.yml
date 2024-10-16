@@ -5,10 +5,10 @@ author_email: adrian.ciu@codemart.ro
 author_name: Adrian Ciu
 has_binder: false
 has_settings: false
-kind: frontend
-labextension_name: tvb-ext-rdc
-project_short_description: A JupyterLab extension which wraps a given URL as an env
-    variable.
+kind: server
+labextension_name: tvb_ext_rdc
+project_short_description: A JupyterLab extension to wrap a given URL given as an
+    env parameter.
 python_name: tvb_ext_rdc
 repository: https://github.com/the-virtual-brain/tvb-ext-rdc
 test: false
