@@ -1,3 +1,5 @@
+.idea
+
 *.bundle.*
 lib/
 node_modules/
@@ -15,7 +17,7 @@ tvb_ext_rdc/_version.py
 # Edit at https://www.gitignore.io/?templates=python
 
 ### Python ###
-# Byte-compiled / optimized / DLL files
+# Byte-compiled / optimized / DLbuiL files
 __pycache__/
 *.py[cod]
 *$py.class

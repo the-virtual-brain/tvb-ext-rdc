@@ -3,4 +3,8 @@ node_modules
 **/lib
 **/package.json
 !/package.json
+package.json
+**/tsconfig.json
+!/tsconfig.json
+tsconfig.json
 tvb_ext_rdc
