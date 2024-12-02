@@ -1,3 +1,7 @@
+<p>
+    <img src="style/VirtualBrainTwin_Logo.svg" alt="VBT logo" title="VBT" height="100" />
+</p>
+
 # tvb_ext_rdc
 
 [![Github Actions Status](https://github.com/the-virtual-brain/tvb-ext-rdc/workflows/Build/badge.svg)](https://github.com/the-virtual-brain/tvb-ext-rdc/actions/workflows/build.yml)
@@ -99,3 +103,7 @@ folder is located. Then you can remove the symlink named `tvb_ext_rdc` within th
 ### Packaging the extension
 
 See [RELEASE](RELEASE.md)
+
+##  Acknowledgments
+
+This project has received funding from the European Union’s Research and Innovation Program Horizon Europe under Grant Agreement No. 101137289 (Virtual Brain Twin Project).
